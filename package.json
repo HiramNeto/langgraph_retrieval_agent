@@ -1,0 +1,25 @@
+{
+  "name": "langgraph-retrieval-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "^0.8.0",
+    "@langchain/community": "^0.3.40",
+    "@langchain/core": "^0.3.44",
+    "@langchain/google-genai": "^0.2.3",
+    "@langchain/langgraph": "^0.2.63",
+    "@langchain/textsplitters": "^0.1.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.21",
+    "zod": "^3.24.2",
+    "zod-to-json-schema": "^3.24.5"
+  },
+  "type": "module"
+}
